@@ -27,8 +27,8 @@ namespace QRScanExample
 			Window.AddFlags (WindowManagerFlags.KeepScreenOn);
 
 			var scanner = new ZXing.Mobile.MobileBarcodeScanner(this);
-//			scanner.UseCustomOverlay = true;
-//			scanner.CustomOverlay = LayoutInflater.Inflate(Resource.Layout.QRScan, null);;
+			scanner.UseCustomOverlay = true;
+			scanner.CustomOverlay = LayoutInflater.Inflate(Resource.Layout.QRScan, null);;
 			var result = await scanner.Scan();
 
 			AudioManager audio = (AudioManager) GetSystemService(Context.AudioService);
