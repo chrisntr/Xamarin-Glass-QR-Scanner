@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello Glass, Tap Me!</string>
+	<string name="app_name">QRScanExample</string>
+	<string name="qr_scan_tips">Point towards the QR code on your screen</string>
+</resources>

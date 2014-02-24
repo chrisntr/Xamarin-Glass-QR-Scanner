@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text_size">26.0px</dimen>
+    <dimen name="between_icon_text_padding">20.0px</dimen>
+    <dimen name="qr_scan_text_bottom_padding">36.0px</dimen>
+</resources>

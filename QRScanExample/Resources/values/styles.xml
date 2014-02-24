@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OverlayText">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:shadowColor">@*android:color/black</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="fontWeight">thin</item>
+    </style>
+
+    <style name="SmallOverlayText" parent="@style/OverlayText">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="fontWeight">light</item>
+    </style>
+</resources>
